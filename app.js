@@ -6,7 +6,7 @@ while (name == null || name == "") {
   var gender;
 
 
-  
+  function greetUser() {
     
 
     while (gender !== "male" && gender !== "female" && gender !== "Male" && gender !== "Female") {
@@ -20,8 +20,8 @@ while (name == null || name == "") {
     } else {
       window.alert(name + " welcome to our family");
     }
-  
-
+  }
+  greetUser();
 
 
 
