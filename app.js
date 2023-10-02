@@ -6,6 +6,8 @@ while (name == null || name == "") {
   var gender;
 
 
+  
+    
 
     while (gender !== "male" && gender !== "female" && gender !== "Male" && gender !== "Female") {
       gender = window.prompt("Please enter your gender, Male or Female");
@@ -18,6 +20,8 @@ while (name == null || name == "") {
     } else {
       window.alert(name + " welcome to our family");
     }
+  
+
 
 
 
