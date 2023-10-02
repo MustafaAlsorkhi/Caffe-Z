@@ -5,8 +5,7 @@ while (name == null || name == "") {
   
   var gender;
 
-function greetUser() {
-    
+
 
     while (gender !== "male" && gender !== "female" && gender !== "Male" && gender !== "Female") {
       gender = window.prompt("Please enter your gender, Male or Female");
@@ -20,8 +19,7 @@ function greetUser() {
       window.alert(name + " welcome to our family");
     }
 
-  }
-  greetUser();
+
 
   
 var drink = window.prompt(name +" do you want a hot or cold drink ?");
