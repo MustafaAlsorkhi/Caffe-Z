@@ -48,3 +48,33 @@ window.alert("The " + DrinkWant+ " is being prepared");
 
 
 
+
+let Age = window.prompt("Enter Your Age")
+
+
+
+let divElements  = document.getElementById("info");
+
+let paragraphElement  = document.createElement("p");
+paragraphElement.innerHTML=name;
+
+
+
+let ulElement  = document.createElement("ul");
+let li1  = document.createElement("li");
+let li2  = document.createElement("li");
+let li3  = document.createElement("li");
+
+li1.innerHTML=`Gender: ${gender}`;
+li2.innerHTML=`Age: ${Age}`;
+li3.innerHTML=`Drink: ${DrinkWant}`;
+
+ulElement.appendChild(li1);
+ulElement.appendChild(li2);
+ulElement.appendChild(li3);
+divElements.appendChild(paragraphElement)
+
+divElements.appendChild(ulElement);
+
+
+document.body.appendChild(divElements)
