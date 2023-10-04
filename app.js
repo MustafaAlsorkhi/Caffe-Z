@@ -100,11 +100,18 @@
 //     event.preventDefault();
 //     newListItem1.innerHTML = document.querySelector("input[name = name]").value;
 //     newListItem2.innerHTML = document.querySelector("input[name = age]").value;
-//     if(    newListItem3.innerHTML = document.querySelector("input[name = choose]").checked){
-//       newListItem3.textContent="Hot"
-//     }else{
-//       newListItem3.textContent="Cold"
-//     }
+//     let arr= [];
+//        let drinktype = document.querySelectorAll("input[name = choose]");
+//        drinktype.forEach((element) => {                                     //element = check boxes values
+//         if(element.checked){
+//             arr.push(element.value);
+//         } 
+      
+        
+//      });
+//      drinktype= arr;
+//      newListItem3.innerHTML= drinktype;
+  
    
 //     newListItem4.innerHTML = document.querySelector("input[name = drink]").value;
 // });
